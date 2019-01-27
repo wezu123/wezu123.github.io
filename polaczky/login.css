@@ -1,0 +1,87 @@
+body{
+	font-family:Tahoma;
+	margin:0;
+	overflow:hidden;
+	height:100%;
+}
+
+.middle{
+	margin:auto;
+	width:400px;
+	height:100%;
+	background-color:grey;
+	background-color:#d3d3d3;
+}
+
+.box{
+	display:inline-block;
+	padding:35px 0 0 0;
+	margin-top:160px;
+	width:400px;
+	height:500px;
+	background-color:#e5e5e5;
+	text-align:center;
+}
+
+.box p{
+	margin-bottom:40px;
+}
+
+a{
+	display:block;
+	padding:5px 5px;
+	width:388px;
+	height:20px;
+	margin-top:200px;
+	background-color:#d3d3d3;
+	border-left:1px solid black;
+	text-decoration:none;
+	font-family:Tahoma;
+	transition-duration: 0.1s;
+}
+
+.button{
+	margin-top:2px;
+	width:400px;
+	background-color:#d3d3d3;
+	border:none;
+	padding:5px 5px;
+	transition-duration: 0.1s;
+	border-left: 1px solid black;
+	cursor:pointer;
+}
+
+.input{
+	display:flex;
+	align-items: center;
+	float:right;
+	clear:both;
+	margin-right:105px;
+	margin-bottom:5px;
+}
+
+form > input:first-of-type{
+	margin-top:25px;
+}
+
+.input p{
+	margin:0;
+	display:inline-block;
+	margin-right:5px;
+}
+
+
+a:hover{
+	background-color:#bed9f4;
+	border-left:1px solid #60afff;
+}
+.button:hover{
+	background-color:#bed9f4;
+	border-left:1px solid #60afff;
+}
+a:active{
+	color:black;
+}
+a:visited{
+	color:black;
+}
